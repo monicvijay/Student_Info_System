@@ -32,9 +32,9 @@
         <result name="failure">/jsp/index.jsp</result>
       </action>
       
-      <action name="AddFaculty" class="edu.iiitb.sis.actions.admin.student.AddStudentAction"  method ="execute">
-        <result name="success">/jsp/adminPages/studentPages/addStudent.jsp</result> 
-        <result name="failure">/jsp/adminPages/studentPages/addStudent.jsp</result>
+      <action name="AddFaculty" class="edu.iiitb.sis.actions.admin.faculty.AddFacultyAction"  method ="execute">
+        <result name="success">/jsp/adminPages/facultyPages/addFaculty.jsp</result> 
+        <result name="failure">/jsp/adminPages/facultyPages/addFaculty.jsp</result>
       </action>
       
        <action name="searchFaculty" class="edu.iiitb.sis.actions.admin.student.SearchStudentAction"  method ="execute">

@@ -22,26 +22,41 @@
   		</s:else>
 	<form class="form-horizental" action="AddFaculty" method="post" enctype="multipart/form-data" >
   					<div class="form-group">
-      					<label  class="col-lg-4 control-label">Student Name</label> 
+      					<label  class="col-lg-4 control-label">Faculty Name</label> 
      					 <div class="col-lg-4">
      					 		<div class="input-group">
      					 			<span class="input-group-addon" id="basic-addon1">
      					 				  <span class="glyphicon glyphicon-user" aria-hidden="true"></span> 
      					 			</span>
-       							 <input type="text" class="form-control" placeholder="Type Student Name here" name="studentName" required>
+       							 <input type="text" class="form-control" placeholder="Type Faculty Name here" name="facultyName" required>
        							 </div>       							
        							  
       					</div>
      					  <br><br>
    					 </div>
-   					
+<div class="form-group">
+      					<label  class="col-lg-4 control-label">Faculty UserName</label> 
+     					 <div class="col-lg-4">
+     					 		<div class="input-group">
+     					 			<span class="input-group-addon" id="basic-addon1">
+     					 				  <span class="glyphicon glyphicon-user" aria-hidden="true"></span> 
+     					 			</span>
+       							 <input type="text" class="form-control" placeholder="Type Faculty UserName here" name="facultyUserName" required>
+       							 </div>       							
+       							  
+      					</div>
+     					  <br><br>
+   					 </div>
+   					 
+   					<!--
   					<div class="form-group">
       					<label  class="col-lg-4 control-label">Roll Number</label>
      					 <div class="col-lg-4">
        							 <input type="text" class="form-control"  placeholder="Type Roll Number here" name="studentRollNo" required>
      					 </div>
      					<br><br> 
-   					 </div>
+   					 </div>-->
+   					 <!-- 
    					 <div class="form-group">
       					<label  class="col-lg-4 control-label">Date Of Birth</label>
      					 <div class="col-lg-4">
@@ -49,11 +64,11 @@
        							 
      					 </div>
      					<br><br> 
-   					 </div>
+   					 </div>-->
    					 <div class="form-group">
       					<label  class="col-lg-4 control-label">Email</label>
      					 <div class="col-lg-4">
-       							 <input type="text" class="form-control"  placeholder="Type Email Id Here" name="email" required>
+       							 <input type="text" class="form-control"  placeholder="Type Faculty Email Id Here" name="email" required>
      					 </div>
      					<br><br> 
    					 </div>
@@ -63,14 +78,15 @@
        							 <input type="text" class="form-control"  placeholder="Type Phone Number here" name="phoneNumber" required>
      					 </div>
      					<br><br> 
-   					 </div>
+   					 </div> 
    					 <div class="form-group">
-      					<label  class="col-lg-4 control-label">Address</label>
+      					<label  class="col-lg-4 control-label">Qualifications</label>
      					 <div class="col-lg-4">
-       							 <textarea class="form-control"  placeholder="Type Address here" name="address" required></textarea>
+       							 <textarea class="form-control"  placeholder="Type Qualifications of the faculty here" name="qualifications" required></textarea>
      					 </div>
      					<br><br><br><br> 
    					 </div>
+   					 <!-- 
    					<div class="form-group">
    					
       					<label  class="col-lg-4 control-label">Picture</label>
@@ -81,7 +97,7 @@
      					 <br><br> 
    					 </div>
    					 
-   					 
+   					 -->
    					 <div class="form-group">
       						<div class="col-lg-10 col-lg-offset-2"><input type="submit" value="Submit"  class="btn btn-primary" />
        						 <input type="reset" class="btn btn-default" name="Reset"/>
