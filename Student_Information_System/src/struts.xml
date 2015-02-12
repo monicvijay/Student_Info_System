@@ -32,6 +32,26 @@
         <result name="failure">/jsp/index.jsp</result>
       </action>
       
+      <action name="AddFaculty" class="edu.iiitb.sis.actions.admin.student.AddStudentAction"  method ="execute">
+        <result name="success">/jsp/adminPages/studentPages/addStudent.jsp</result> 
+        <result name="failure">/jsp/adminPages/studentPages/addStudent.jsp</result>
+      </action>
+      
+       <action name="searchFaculty" class="edu.iiitb.sis.actions.admin.student.SearchStudentAction"  method ="execute">
+        <result name="success">/jsp/adminPages/studentPages/searchStudentToUpdate.jsp</result> 
+        <result name="failure">/jsp/index.jsp</result>
+      </action>
+      
+       <action name="updateFacultyDetails" class="edu.iiitb.sis.actions.admin.student.UpdateStudentDetailsAction"  method ="execute">
+        <result name="success">/jsp/adminPages/studentPages/searchStudentToUpdate.jsp</result> 
+        <result name="failure">/jsp/index.jsp</result>
+      </action>
+      
+      <action name="getFacultyDetails" class="edu.iiitb.sis.actions.admin.student.GetStudentDetails"  method ="execute">
+        <result name="success">/jsp/adminPages/studentPages/updateStudentDetails.jsp</result> 
+        <result name="failure">/jsp/index.jsp</result>
+      </action>
+      
        <action name="forgotPassword" class="edu.iiitb.sis.actions.authentication.ForgotPasswordAction"  method ="execute">
         <result name="success">/jsp/adminPages/studentPages/searchStudentToUpdate.jsp</result> 
         <result name="failure">/jsp/index.jsp</result>

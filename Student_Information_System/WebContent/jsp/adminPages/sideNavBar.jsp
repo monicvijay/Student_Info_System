@@ -20,7 +20,13 @@
 </div>
 <div class="frame1">
 <ul class="nav nav-pills nav-stacked">
-     <li  class="active"><a href="#"><i  class="fa fa-user "></i>&nbsp;Add/Del Faculty</a></li>
+     <li  class="active"><a href="<%=request.getContextPath()%>/jsp/adminPages/facultyPages/addFaculty.jsp"><i  class="fa fa-user "></i>&nbsp;Add Faculty</a></li>
+   
+</ul>
+</div>
+<div class="frame1">
+<ul class="nav nav-pills nav-stacked">
+     <li  class="active"><a href="searchFaculty"><i  class="fa fa-user "></i>&nbsp;Update Faculty</a></li>
    
 </ul>
 </div>

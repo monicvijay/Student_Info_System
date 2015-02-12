@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+     <%@ taglib prefix="s" uri="/struts-tags"%>
+    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -22,6 +24,14 @@
 </div>
 <div class="col-lg-7">
 <form method="post" action="Login" class="form-horizental">
+		 <div class="form-group">
+      	
+      	<div class="col-lg-6">
+     		     <center> 	<label class="col-lg-12 control-label"><s:property value="message"/></label></center>						  
+      	</div>
+      	<br><br>
+      </div>
+	
 	<div class="form-group">
       	<label  class="col-lg-2 control-label">User Name</label>
       	<div class="col-lg-4">
@@ -34,7 +44,7 @@
        							  
       	</div>
       	<br><br>
-      </div>	 l
+      </div>	 
 	<div class="form-group">
       	<label  class="col-lg-2 control-label">Password</label>
       	<div class="col-lg-4">
